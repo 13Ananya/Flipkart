@@ -3,7 +3,7 @@ from langchain_core.documents import Document
 
 def data_converter():
 
-    product_data = pd.read_csv('flipkart/data/flipkart_com-ecommerce_sample.csv')
+    product_data = pd.read_csv("C:/Users/anany/OneDrive/Desktop/Flipkart/data/flipkart_product_review.csv")
 
     data = product_data[["product_title","review"]]
 
