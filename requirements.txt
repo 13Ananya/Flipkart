@@ -1,0 +1,13 @@
+langchain-astradb
+langchain
+langchain-community
+langchain-groq
+datasets
+pypdf
+python-dotenv
+pandas
+flask
+
+-e .  # e is an executable file which in backend will call setup.py file and dot means that the setup.py file is present inside my main directory
+# setup.py file is a file which is used to install the local package in the virtual environment and the 
+#lipkart folder here is a local package which we need to install inside our venv for which we need setup.py whereas pandas numpy etc are global packages
